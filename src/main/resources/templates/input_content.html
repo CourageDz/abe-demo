@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+
+    <script type="text/javascript" th:src="@{/js/jquery.min.js}"></script>
+    <!-- bootstrap -->
+    <link rel="stylesheet" type="text/css" th:href="@{/bootstrap/css/bootstrap.min.css}"/>
+    <script type="text/javascript" th:src="@{/bootstrap/js/bootstrap.min.js}"></script>
+    <!-- jquery-validator -->
+    <script type="text/javascript" th:src="@{/jquery-validation/jquery.validate.min.js}"></script>
+    <script type="text/javascript" th:src="@{/jquery-validation/localization/messages_zh.min.js}"></script>
+    <!-- layer -->
+    <script type="text/javascript" th:src="@{/layer/layer.js}"></script>
+    <!-- md5.js -->
+    <script type="text/javascript" th:src="@{/js/md5.min.js}"></script>
+    <!-- common.js -->
+    <script type="text/javascript" th:src="@{/js/common.js}"></script>
+</head>
+
+<body>
+<form name="contentInputForm" id="contentInputForm" method="post" style="width:50%; margin:0 auto">
+
+    <h2 style="text-align:center; margin-bottom: 20px">输入加密内容</h2>
+
+    <div class="form-group">
+        <div class="row">
+            <label class="form-label col-md-4">请输入想要加密的数据</label>
+            <div class="col-md-5">
+                <input id="content" name="content" class="form-control" type="text" placeholder="待加密数据"
+                       required="true"/>
+            </div>
+            <div class="col-md-1">
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="col-md-5">
+            <button class="btn btn-primary btn-block " type="submit" onclick="encrypted()">加密</button>
+        </div>
+    </div>
+</form>
+</body>
+<script>
+    function encrypted() {
+        g_showLoading();
+        $.ajax({
+            url: "/content/enc_content",
+            type: "POST",
+            data: {
+                content: $("#content").val(),
+            },
+            success: function (data) {
+                layer.closeAll();
+                if (data.code == 0) {
+                    layer.msg("成功");
+                    // window.location.href="/content/to_input_content";
+                } else {
+                    layer.msg(data.msg);
+                    console.log(data)
+                }
+            },
+            error: function () {
+                layer.closeAll();
+            }
+        })
+    }
+</script>
+
+</html>
+

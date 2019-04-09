@@ -1,7 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2865c001-3599-493d-82f8-aa19173c5910" name="Default Changelist" comment="" />
+    <list default="true" id="2865c001-3599-493d-82f8-aa19173c5910" name="Default Changelist" comment="&quot;finish login module&quot;">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dzy_hdu_jpbc_plaf_sdk_20190409_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dzy_hdu_jpbc_sdk_20190409_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/controller/ContentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/authority/AuthPublicKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/authority/AuthSecretKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/authority/AuthorityKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/authority/AuthorityPublicKeys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/ciphertext/AccessStructure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/ciphertext/AndGate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/ciphertext/AttElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/ciphertext/Attribute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/ciphertext/Ciphertext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/ciphertext/InternalNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/ciphertext/LocaleCiphertext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/ciphertext/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/ciphertext/OrGate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/ciphertext/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/globalAuthority/GlobalParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/policy/AttNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/policy/AttributeInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/policy/EncInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/policy/LsssCtAttUk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/policy/LsssCtAttUkCase2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/policy/LsssCtAttUkCase3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/policy/LsssUKInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/policy/PolicyComResults.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/policy/PolicyCompare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/policy/TimeAttUK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/policy/TimeAttributeInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/policy/UpdateCtComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/test/MyTestEdgeTimeCPAbe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/test/PolicyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/test/SimulateEdgeCPAbe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/timeParam/AAEncParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/timeParam/EncParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/timeParam/TimeAttKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/timeParam/TimeKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/userKey/CertUid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/userKey/EdgeKeys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/userKey/EdgeUserAuthKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/userKey/UserAttributeKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/userKey/UserAuthorityKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/userKey/UserSplitKeys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/userKey/Userkeys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/util/EdgeCPAbe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/util/EdgeTimeCPAbeV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/service/ContentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/service/SymKeyEncService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/input_content.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/abe-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/abe-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/AbeDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/AbeDemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/vo/LoginVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/vo/LoginVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dzy/abedemo/AbeDemoApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dzy/abedemo/AbeDemoApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dzy/abedemo/exception/GlobalException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dzy/abedemo/exception/GlobalException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dzy/abedemo/exception/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dzy/abedemo/exception/GlobalExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dzy/abedemo/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dzy/abedemo/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dzy/abedemo/vo/LoginVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dzy/abedemo/vo/LoginVo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/result/CodeMsg.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/result/CodeMsg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/result/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/result/Result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap/css/bootstrap-theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap/css/bootstrap-theme.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/bootstrap/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/goods_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/goods_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/order_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/order_detail.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,38 +89,198 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/AbeDemoApplication.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/timeParam/TimeKey.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="-50">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
-                <element signature="e#324#325#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/test/SimulateEdgeCPAbe.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1175">
+              <caret line="49" column="45" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/util/EdgeCPAbe.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/util/EdgeTimeCPAbeV2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1000">
+              <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/policy/PolicyCompare.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2039">
+              <caret line="194" column="62" lean-forward="true" selection-start-line="194" selection-start-column="62" selection-end-line="194" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/test/MyTestEdgeTimeCPAbe.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="650">
+              <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/controller/ContentController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-200">
+              <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/userKey/UserAuthorityKey.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1556">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1616#1617#0" expanded="true" />
+                <element signature="e#1651#1652#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/userKey/CertUid.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/JAVA/jdk/src.zip!/java/io/ObjectOutputStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="161" column="13" selection-start-line="161" selection-start-column="13" selection-end-line="161" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/AbeDemoApplication.java" />
+        <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_CHANGES_POLICY" value="SHELVE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/AbeDemoApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/dao/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/domain/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/validator/IsMobileVolidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/validator/IsMobile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/exception/GlobalExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/exception/GlobalException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/result/CodeMsg.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/vo/LoginVo.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/input_content.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/service/SymKeyEncService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/controller/ContentController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/service/ContentService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/authority/AuthSecretKey.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/ciphertext/OrGate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/authority/AuthorityKey.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/globalAuthority/GlobalParam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/ciphertext/OrGate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/policy/LsssCtAttUkCase2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/timeParam/AAEncParam.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/globalAuthority/GlobalParam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/authority/AuthorityKey.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/ciphertext/Ciphertext.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/test/TestSimEdgeCPAbe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/userKey/EdgeKeys.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/test/SimulateEdgeCPAbe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/util/EdgeCPAbe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/userKey/UserAuthorityKey.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/util/EdgeTimeCPAbeV2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/policy/PolicyCompare.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/test/MyTestEdgeTimeCPAbe.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-122" />
-    <option name="y" value="178" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -78,11 +315,43 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="abedemo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="abe-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="abe-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="abedemo" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="abe-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="abe-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="abedemo" type="462c0819:PsiDirectoryNode" />
+              <item name="cpabe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="abe-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="abe-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="abe-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="abe-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -92,11 +361,28 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554284076109" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554820206027" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/authority" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.dzy.abedemo.service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.dzy.abedemo.globalAuthority" />
+      <recent name="com.dzy.abedemo.validator" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JdeaWorkspace\src\github.com\CourageD\abe-demo\src\main\java\com\dzy\abedemo\cpabe" />
+      <recent name="E:\JdeaWorkspace\src\github.com\CourageD\abe-demo\src\main\java\com\dzy\abedemo" />
+      <recent name="E:\JdeaWorkspace\src\github.com\CourageD\abe-demo\src\main\resources\templates" />
+      <recent name="E:\JdeaWorkspace\src\github.com\CourageD\abe-demo\src\main\resources\static" />
+      <recent name="E:\JdeaWorkspace\src\github.com\CourageD\abe-demo\src\main\java" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -114,6 +400,69 @@
     <configuration name="AbeDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="abe-demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dzy.abedemo.AbeDemoApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_abe-demo" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="61391" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -131,17 +480,18 @@
       <updated>1554283499347</updated>
       <workItem from="1554283502083" duration="1170000" />
       <workItem from="1554449023287" duration="1205000" />
+      <workItem from="1554722945054" duration="15552000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2375000" />
+    <option name="totallyTimeSpent" value="17927000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2510661" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -151,7 +501,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.19956616" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -159,8 +509,8 @@
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.4273319" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.24728851" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
@@ -180,14 +530,338 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;finish login module&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;finish login module&quot;" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/AbeDemoApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/authority/ciphertext/AccessStructure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/ciphertext/Message.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/ciphertext/LocaleCiphertext.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/ciphertext/InternalNode.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/ciphertext/Attribute.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/ciphertext/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/ciphertext/OrGate.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/policy/EncInfo.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/policy/TimeAttUK.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/policy/LsssCtAttUkCase3.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/policy/LsssUKInfo.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/policy/TimeAttributeInfo.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/policy/PolicyComResults.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/policy/LsssCtAttUk.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/policy/LsssCtAttUkCase2.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/util/EdgeTimeCPAbeDis.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/util/TimeCountProxyHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="77" column="24" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/globalAuthority/GlobalParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/authority/AuthorityKey.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
           <folding>
-            <element signature="e#324#325#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#824#825#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/authority/AuthorityPublicKeys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/authority/AuthPublicKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/authority/AuthSecretKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/ciphertext/AccessStructure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/ciphertext/AndGate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/ciphertext/AttElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/ciphertext/Ciphertext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/policy/AttNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/test/PolicyTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/test/TestSimEdgeCPAbe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/test/TestElementAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/userKey/UserAttributeKey.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/userKey/Userkeys.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/userKey/EdgeUserAuthKey.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/userKey/UserSplitKeys.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/userKey/EdgeKeys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/timeParam/AAEncParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/timeParam/EncParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/timeParam/TimeAttKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/JAVA/jdk/src.zip!/java/io/ObjectOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="161" column="13" selection-start-line="161" selection-start-column="13" selection-end-line="161" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/userKey/CertUid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/test/SimulateEdgeCPAbe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1175">
+          <caret line="49" column="45" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/util/EdgeCPAbe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/timeParam/TimeKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-50">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/userKey/UserAuthorityKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1556">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1616#1617#0" expanded="true" />
+            <element signature="e#1651#1652#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/util/EdgeTimeCPAbeV2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1000">
+          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/policy/PolicyCompare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2039">
+          <caret line="194" column="62" lean-forward="true" selection-start-line="194" selection-start-column="62" selection-end-line="194" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/cpabe/test/MyTestEdgeTimeCPAbe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzy/abedemo/controller/ContentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
         </state>
       </provider>
     </entry>
