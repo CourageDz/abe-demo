@@ -10,6 +10,7 @@ import it.unisa.dia.gas.plaf.jpbc.pairing.PairingFactory;
 import java.io.*;
 
 public class GlobalParam implements Serializable {
+    private long id;
     private static final long serialVersionUID = 1L;
     private PairingParameters pairingParameters;
     private AuthorityPublicKeys APKS;
@@ -42,6 +43,14 @@ public class GlobalParam implements Serializable {
 
     public void setGa(byte[] ga) {
         this.ga = ga;
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
     }
 
     public AuthorityPublicKeys getAPKS() {

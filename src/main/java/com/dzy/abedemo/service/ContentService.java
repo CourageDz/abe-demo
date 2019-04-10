@@ -1,5 +1,7 @@
 package com.dzy.abedemo.service;
 
+import com.dzy.abedemo.cpabe.ciphertext.Ciphertext;
+import com.dzy.abedemo.cpabe.globalAuthority.GlobalParam;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
@@ -41,6 +43,10 @@ public class ContentService {
         } catch (Exception e) {
             e.printStackTrace();
         }
+        return null;
+    }
+
+    public Ciphertext symKeyEnc(byte[] encoded, GlobalParam gp) {
         return null;
     }
 }

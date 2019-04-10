@@ -1,7 +1,10 @@
 package com.dzy.abedemo.controller;
 
+import com.dzy.abedemo.cpabe.ciphertext.Ciphertext;
+import com.dzy.abedemo.cpabe.globalAuthority.GlobalParam;
 import com.dzy.abedemo.domain.User;
 import com.dzy.abedemo.service.ContentService;
+import com.dzy.abedemo.service.SystemService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,6 +26,8 @@ public class ContentController {
 
     @Autowired
     ContentService contentService;
+    @Autowired
+    SystemService systemService;
 
     @RequestMapping("/to_input_content")
     public String toContentInput() {
@@ -37,6 +42,8 @@ public class ContentController {
         model.addAttribute("user", user);
         Key symKey = contentService.generateSymKey();
         byte[] symEncCt = contentService.symEnc(content, symKey);
+        GlobalParam GP = systemService.genGlobalSystem();
+        Ciphertext ciphertext = contentService.symKeyEnc(symKey.getEncoded(), GP);
         log.info("key transform:=" + Arrays.toString(symKey.getEncoded()));
         return Result.success(true);
     }
