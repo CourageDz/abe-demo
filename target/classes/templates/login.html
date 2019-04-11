@@ -81,11 +81,11 @@
                 mobile: $("#mobile").val(),
                 password: $("#password").val(),
             },
-            success: function(data) {
+            success: function (data) {
                 layer.closeAll();
                 if (data.code == 0) {
                     layer.msg("成功");
-                    window.location.href="/content/to_input_content";
+                    window.location.href = "/content/to_input_content";
                 } else {
                     layer.msg(data.msg);
                     console.log(data)

@@ -19,27 +19,15 @@
 </head>
 
 <body>
-<form name="contentInputForm" id="contentInputForm" method="post" style="width:50%; margin:0 auto">
+<form name="inputForm" id="inputForm" method="post" style="width:50%; margin:0 auto">
 
-    <h2 style="text-align:center; margin-bottom: 20px">输入加密内容</h2>
-
-    <div class="form-group">
-        <div class="row">
-            <label class="form-label col-md-4">请输入想要加密的数据</label>
-            <div class="col-md-5">
-                <input id="content" name="content" class="form-control" type="text" placeholder="待加密数据"
-                       required="true"/>
-            </div>
-            <div class="col-md-1">
-            </div>
-        </div>
-    </div>
+    <h2 style="text-align:center; margin-bottom: 20px">注册用户</h2>
 
     <div class="form-group">
         <div class="row">
-            <label class="form-label col-md-4">请输入该数据的访问策略</label>
+            <label class="form-label col-md-4">请输入数据访问者拥有的属性</label>
             <div class="col-md-5">
-                <input id="policy" name="policy" class="form-control" type="text" placeholder="and and a a or c and d e"
+                <input id="duAttributes" name="duAttributes" class="form-control" type="text" placeholder="a b c..."
                        required="true"/>
             </div>
             <div class="col-md-1">
@@ -49,20 +37,19 @@
 
     <div>
         <div class="col-md-5">
-            <button class="btn btn-primary btn-block " type="submit" onclick="encrypted()">加密</button>
+            <button class="btn btn-primary btn-block " type="submit" onclick="registered()">注册</button>
         </div>
     </div>
 </form>
 </body>
 <script>
-    function encrypted() {
+    function registered() {
         g_showLoading();
         $.ajax({
-            url: "/content/enc_content",
+            url: "/content/du_init",
             type: "POST",
             data: {
-                content: $("#content").val(),
-                policy: $("#policy").val(),
+                duAttributes: $("#duAttributes").val(),
             },
             success: function (data) {
                 layer.closeAll();

@@ -14,6 +14,9 @@ public class CodeMsg {
     public static CodeMsg LOGIN_USER_ERROR = new CodeMsg(500201, "账号不存在");
     public static CodeMsg PASSWORD_ERROR = new CodeMsg(500201, "密码错误");
 
+    //DU错误
+    public static CodeMsg GP_FILE_NOT_EXISTS = new CodeMsg(500300, "GP文件不存在");
+
 
     public CodeMsg(int code, String msg) {
         this.code = code;

@@ -84,8 +84,13 @@
             success: function (data) {
                 layer.closeAll();
                 if (data.code == 0) {
-                    layer.msg("成功");
-                    window.location.href = "/content/to_input_content";
+                    layer.confirm("登录成功！Data Owner or Data User", {btn: ["DO", "DU"]},
+                        function () {
+                            window.location.href = "/content/to_input_content";
+                        },
+                        function () {
+                            window.location.href = "/access/du_init";
+                        });
                 } else {
                     layer.msg(data.msg);
                     console.log(data)

@@ -1,9 +1,13 @@
 package com.dzy.abedemo.service;
 
+import com.dzy.abedemo.cpabe.ciphertext.AccessStructure;
 import com.dzy.abedemo.cpabe.ciphertext.Ciphertext;
+import com.dzy.abedemo.cpabe.ciphertext.Message;
 import com.dzy.abedemo.cpabe.globalAuthority.GlobalParam;
+import com.dzy.abedemo.cpabe.util.EdgeTimeCPAbeV2;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.crypto.Cipher;
@@ -17,6 +21,9 @@ import java.util.Arrays;
 @Service
 public class ContentService {
     Logger log = LoggerFactory.getLogger(ContentService.class);
+
+    @Autowired
+    SystemService systemService;
 
     public static final String KEY_ALGORITHM = "AES";
     public static final String CIPHER_ALGORITHM = "AES/ECB/PKCS5Padding";
@@ -46,7 +53,11 @@ public class ContentService {
         return null;
     }
 
-    public Ciphertext symKeyEnc(byte[] encoded, GlobalParam gp) {
-        return null;
+    public Ciphertext symKeyEnc(byte[] symKey, String policy, GlobalParam gp) {
+        AccessStructure arho = AccessStructure.buildFromPolicy(policy);
+//        String fID= EdgeTimeCPAbeV2.generateRandomFid();
+        Message key = new Message(symKey);
+        Ciphertext ciphertext = EdgeTimeCPAbeV2.normalEncrypt(key, arho, gp);
+        return ciphertext;
     }
 }
